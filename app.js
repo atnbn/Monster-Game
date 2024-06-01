@@ -53,8 +53,8 @@ const app = Vue.createApp({
 
     methods: {
         startGame() {
-            this.playerHealth = 0
-            this.monsterHealth = 0
+            this.playerHealth = 100
+            this.monsterHealth = 100
             this.winner = null;
             this.currentRound = 0
         },
